@@ -1,4 +1,4 @@
-package aizet_Selenium;
+package Aizet_Selenium;
 
 public class HelloWorld {
     public static void main(String[] args) {
