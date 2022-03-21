@@ -26,9 +26,10 @@ public class FindTheFrequenceyOfTheElement {
         }
         System.out.println("arr = "+Arrays.toString(arr));
         System.out.println("arr = "+Arrays.toString(fr));
+        System.out.println("Element   |   frequency");
         for (int i=0; i<fr.length; i++){
             if(fr[i]!=visited){
-                System.err.println(arr[i]+"  |  "+fr[i]);
+                System.err.println(arr[i]+"          |          "+fr[i]);
             }
         }
     }
