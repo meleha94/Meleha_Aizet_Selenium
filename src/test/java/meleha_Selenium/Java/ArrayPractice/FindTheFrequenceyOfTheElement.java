@@ -1,8 +1,11 @@
 package meleha_Selenium.Java.ArrayPractice;
 
+import java.util.Arrays;
+
 public class FindTheFrequenceyOfTheElement {
     public static void main(String[] args) {
         //Java Program to find the frequency of each element in the array
+        System.out.println("First you would need ");
         int [] arr = {1,2,8,3,2,2,2,5,1};
         int [] fr = new int [arr.length];
         int visited = -1;
@@ -19,6 +22,13 @@ public class FindTheFrequenceyOfTheElement {
                 }
             }
 
+        }
+        System.out.println("arr = "+Arrays.toString(arr));
+        System.out.println("arr = "+Arrays.toString(fr));
+        for (int i=0; i<fr.length; i++){
+            if(fr[i]!=visited){
+                System.err.println(arr[i]+"  |  "+fr[i]);
+            }
         }
     }
 }
