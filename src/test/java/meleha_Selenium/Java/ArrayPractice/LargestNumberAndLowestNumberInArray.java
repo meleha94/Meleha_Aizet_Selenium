@@ -2,7 +2,7 @@ package meleha_Selenium.Java.ArrayPractice;
 
 import java.util.Arrays;
 
-public class Largest3Number {
+public class LargestNumberAndLowestNumberInArray {
     public static void main(String[] args) {
         // we can do that by sorting
         int [] arr = {12,45,68,45,75,35,45};
