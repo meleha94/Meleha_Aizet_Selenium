@@ -4,9 +4,11 @@ import java.util.Arrays;
 
 public class AssendingOrderOfArray {
     public static void main(String[] args) {
-        //
+        // we will have one outer loop and one inner loop
+        // the 
         int [] originalArray = {5,2,8,7,1};
         int seting = 0;
+        Arrays.sort(originalArray);
         //int [] accedningOrder = new int [originalArray.length];
         for (int i = 0; i < originalArray.length; i++) {
             for (int j = i+1; j < originalArray.length; j++) {
